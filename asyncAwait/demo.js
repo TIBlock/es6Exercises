@@ -1,4 +1,4 @@
-// async/await is a useful way to write asynchronous code that looks synchronous
+s// async/await is a useful way to write asynchronous code that looks synchronous
 
 // Here's an example of asynchronous code:
 

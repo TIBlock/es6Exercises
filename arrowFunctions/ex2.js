@@ -10,9 +10,9 @@ const inventory = [
 ]
 
 // Filter out things that arent machines:
-let justMachines = YOUR_CODE_HERE
-console.log(justMachines)
+let justMachines = inventory.filter( item => item.type != "machine")
+console.log(justMachines) 
 
 // Calculate the total value of the machines
-let totalMachineValue = YOUR_CODE_HERE
+let totalMachineValue = inventory.reduce((a,b) => a + b.value, 0)
 console.log(totalMachineValue)

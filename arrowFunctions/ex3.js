@@ -1,6 +1,6 @@
 
 
-let getFullName = user => {
+let getFullName = user(name = "noname", age = 0, occupation = "uneployed") => {
     let fullName = user.firstName + user.lastName;
     return fullName
 }
